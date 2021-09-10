@@ -1,0 +1,37 @@
+.iclass {
+	color: red;
+	font-size: 23px;
+}
+.bclass {
+	color: green;
+	font-size: 23px;
+}
+#text-in-p {
+	color: blue;
+	font-size: 23px;
+}
+.main-link {
+	color: red;
+	font-size: 23px;
+	text-decoration: none;
+}
+/* псевдоклассы, например: при наведении меняется цвет ссылки */
+/* псевдоэлементы */
+.main-link:hover {
+	color: blue;
+	font-size: 23px;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: grey
+}
+
+.main-link:visited {
+	color: grey;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+
+input {color:orange}
+input:focus {color:black}
+/* бывают вложенные селекторы, т.е. добавление стиля тегу, который находится внутри другого тега */

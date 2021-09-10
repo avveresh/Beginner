@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!-- html состоит из тэгов <> -->
+<head>
+<!-- установка кодировки для отображения кириллицы -->
+    <meta charset="utf-8"/>
+    <meta name="author" content = "Vereshchetin Alexander">
+<!-- описание страницы для поисковиков, ботов, что бы они знали что на сайте находится -->
+    <meta name="description" content = "Test page">
+    <meta name="keywords" content = "Html, CSS, JavaScript">
+	<title>Изучаем язык JavaScript</title>
+	<script type="text/javascript" href="JavaScript.js"></script>
+ <!-- Подключение кода CSS к тэгу <p> -->   
+ <!--   <style>
+        p {
+          color: red
+          }
+    </style> -->
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	     <!-- id может быть тока один на странице --> 
+	     <p id="text-in-p"> This is <g class="iclass"> Working page </g>  for <b class="bclass"> Greenatom </b> company </p>
+	     <a href = "https://conf.rosatom.ru" class="main-link">AtomSpace</a>
+	     <br>
+	     <input type="Text" placeholder="Введите текст"">
+	     <!-- вставка аудио файла --> 
+	     <p> Прослушайте новую песню <cite> Sleep Away</cite></p>
+	     <audio src="Sleep Away.mp3" controls>"</audio>
+	     <!-- вставка видео файла --> 
+	     <p> Посмотрите новый клип <cite> Прикольмь </cite></p>
+	     <video src="Wildlife.mp4" controls widht="640" height="368" poster="Penguins.jpg">"</video>
+	     <h1> Заголовок 1 </h1>
+	     <h2> Заголовок 2 </h2>
+	     <p> Просто <b>текст</b></p>
+	     <p> Просто <i>текст</i> </p>
+	     <p> Просто <strike>текст</strike> </p>
+	     <p> Просто <sup>текст</sup> </p>
+	     <p> Просто <sub>текст</sub> </p>
+	     <h3> Заголовок 3 </h3>
+	     <h4> Заголовок 4 </h4>
+	     <h5> Заголовок 5 </h5>
+	     <h6> Заголовок 6 </h6>
+	     Я хочу научиться программить на Python <br>
+	     Но я уже задолбался <br>
+	     <!-- строка с комментом -->
+	     <abbr title="Язык разметки">HTML</abbr>
+	     <br>
+	     <!-- вывод строк кода -->
+	     <pre> function some () {
+	     	return "Some"
+	     } </pre>
+	     <code> let x = 0; </code>
+
+
+
+    <script type="text/javascript">
+	//JavaScript код
+	//переменные создаются через команду var
+	  var number = 2;
+	  var string;
+	    string = "Hello World! ";
+	  var floatNumber = 1.23;
+	  var isTrue;
+	    isTrue = true;
+
+	  var num_1 = Number ("5");
+	  var num_2 = Number ("3");
+	  var res = num_1 + num_2;
+	 // Вывод в консоль разработчика в браузере
+	  console.log ("Вычитание: " + res);
+	  console.log ("Math: " + Math.min (2,4,6,8));
+	 // Вывод на экран
+	   document.write("Variable number = " + number + "<br />" + string + "<br />" + floatNumber + "<br />" + isTrue);
+      // Условный оператор
+      if (number > 5) {
+      	console.log ("Ok");
+      } 
+      else {
+      	console.log ("No");
+      }
+      var stroka = 'world'
+      switch (stroka) {
+      	case "4": console.log ("Переменная со значением 4");
+      	break;
+      	case "world": console.log ("Переменная со значением world");
+        break;
+      }
+	</script>  
+</body>
+</html>
